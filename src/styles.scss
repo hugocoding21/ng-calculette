@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+button {
+  background-color: rgb(117, 143, 176);
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 3rem;
+  height: 4rem;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: rgb(171, 183, 200);
+}
